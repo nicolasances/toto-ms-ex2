@@ -11,10 +11,12 @@
   "author": "nicolasances",
   "license": "ISC",
   "dependencies": {
+    "@aws-sdk/client-bedrock-runtime": "^3.913.0",
     "@aws-sdk/client-secrets-manager": "^3.911.0",
     "@google-cloud/pubsub": "^4.0.6",
     "@google-cloud/secret-manager": "^5.0.1",
     "@google-cloud/storage": "^7.3.1",
+    "aws-sdk": "^2.1692.0",
     "body-parser": "^1.18.2",
     "connect-busboy": "^1.0.0",
     "express": "^4.16.2",
@@ -36,5 +38,5 @@
     "nodemon": "^3.0.1",
     "ts-node": "^10.9.1",
     "typescript": "^5.2.2"
-  } 
+  }
 }
