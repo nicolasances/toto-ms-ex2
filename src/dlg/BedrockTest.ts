@@ -6,8 +6,8 @@ export class PostPrompt implements TotoDelegate {
 
     async do(req: Request, userContext: UserContext, execContext: ExecutionContext): Promise<any> {
 
-        const modelId = "eu.anthropic.claude-sonnet-4-20250514-v1:0";
-        const prompt = "Explain the concept of quantum entanglement in one short paragraph.";
+        const modelId = "eu.anthropic.claude-3-7-sonnet-20250219-v1:0";
+        const prompt = "Explain the concept of quantum entanglement.";
 
         const client = new BedrockRuntimeClient({});
 
